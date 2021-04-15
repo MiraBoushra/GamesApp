@@ -1,0 +1,21 @@
+.recommendedContainer{
+    background-color: white;
+    display: flex;
+    width: 58%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 146px) 20%;
+    @media screen and (max-width:'800px') {
+        width: 65%;
+        grid-template-columns: repeat(auto-fill, 152px) 28%;
+      }
+      @media screen and (max-width:'580px') {
+        width: 100%;
+ 
+      }
+    div{
+        margin: 19px 0;
+    }
+}
