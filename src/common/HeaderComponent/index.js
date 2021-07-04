@@ -4,14 +4,14 @@ import React from "react";
 import iconSet from "../../assets/fonts/icoMoonSets/selection.json";
 import PropTypes from "prop-types";
 import IcomoonReact from "icomoon-react";
-import TPAY from "../../assets/imgs/TPAY.jpg";
+import sponge from "../../assets/imgs/sponge.png";
 
 function Header(links) {
   return (
     <>
   
     <nav className="header-container">
-    <img src={TPAY} alt='tpay'/>
+    <img src={sponge} alt='sponge'/>
     <span>
          <IcomoonReact
         className="header-container__searchIcon"
